@@ -57,7 +57,7 @@ flowchart TD
 import heapq
 import math
  
-# --- 1. Deteksi & Range Check ---
+# 1. Deteksi & Range Check
 def distance(a, b):
     return math.hypot(a[0] - b[0], a[1] - b[1])
  
@@ -65,7 +65,7 @@ def is_player_in_range(enemy_pos, player_pos, detection_radius):
     return distance(enemy_pos, player_pos) <= detection_radius
  
  
-# --- 2. Pathfinding: A* ---
+# 2. Pathfinding: A* 
 def heuristic(a, b):
     # Manhattan distance, cocok untuk grid 4-arah
     return abs(a[0] - b[0]) + abs(a[1] - b[1])
@@ -108,7 +108,7 @@ def a_star(start, goal, grid):
     return None  # tidak ada jalur ke player
  
  
-# --- 3. Pergerakan menuju player ---
+# 3. Pergerakan menuju player
 class Enemy:
     def __init__(self, position, detection_radius=5, speed=1):
         self.position = position
@@ -132,7 +132,7 @@ class Enemy:
             print("Enemy idle / no path to player")
  
  
-# --- Contoh penggunaan ---
+# Contoh penggunaan
 if __name__ == "__main__":
     dungeon_grid = [
         [0, 0, 0, 0, 0],
