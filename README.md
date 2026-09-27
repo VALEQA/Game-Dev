@@ -25,6 +25,7 @@ Setelah jalur ditemukan oleh algoritma A\* (berupa kumpulan node/waypoint), enem
 
 Kesimpulan:
 Algoritma utama yang digunakan dalam sistem AI enemy ini adalah A\* (A-Star) Pathfinding Algorithm, yang dikombinasikan dengan perhitungan jarak Euclidean untuk deteksi serta logika perbandingan sederhana (*threshold checking*) untuk menentukan apakah player berada dalam jangkauan enemy.
+
 2. Flowchart
  
 ```mermaid
