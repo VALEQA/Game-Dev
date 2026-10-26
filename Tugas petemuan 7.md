@@ -1,7 +1,7 @@
-Cari teori mengenai Steering Behaviour & Collison Avoidance, lalu jelaskan. 
-apakah teori yang ada dapat memiliki persamaan matematis? jika iya / tidak jelaskan. 
-bagaimana jika diterapkan menggunakan python ? apakah dapat dilakukan simulasi secara dasar ? 
-buatlah studi kasus yang berkaitan dengan Steering Behaviour & Collison Avoidance
+1. Cari teori mengenai Steering Behaviour & Collison Avoidance, lalu jelaskan. 
+2. apakah teori yang ada dapat memiliki persamaan matematis? jika iya / tidak jelaskan. 
+3. bagaimana jika diterapkan menggunakan python ? apakah dapat dilakukan simulasi secara dasar ? 
+4. buatlah studi kasus yang berkaitan dengan Steering Behaviour & Collison Avoidance
 
 Jawaban :
 1.
